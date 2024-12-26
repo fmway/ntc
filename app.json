@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "ntc",
+    "owner": "ntc-ntc",
     "slug": "ntc",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -26,7 +27,7 @@
     "plugins": [
       "expo-router",
       [
-        "expo-screen-orientation", 
+        "expo-screen-orientation",
         {
           "initialOrientation": "DEFAULT"
         }
@@ -39,7 +40,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
