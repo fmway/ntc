@@ -10,6 +10,7 @@ export default function HomeScreen() {
         <CardLine href={"/test"}>A</CardLine>
         <CardLine href={"/test"}>B</CardLine>
         <CardLine href={"/test"}>C</CardLine>
+        <CardLine href={"/test"}>D</CardLine>
       </View>
     </View>
   );
