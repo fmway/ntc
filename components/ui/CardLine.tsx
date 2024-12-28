@@ -2,10 +2,9 @@ import { Href, Link } from "expo-router";
 import { PropsWithChildren } from "react";
 import { Text, View } from "react-native";
 
-export default function CardLine({
-  children,
-  href,
-}: PropsWithChildren & { href: Href<string | object> }) {
+export default function CardLine({ children, href }: PropsWithChildren & {
+  href: Href,
+}) {
   return (
     <Link href={href}>
       <View className="flex items-center h-[640px] w-[300px] bg-primary rounded-xl justify-center relative">
