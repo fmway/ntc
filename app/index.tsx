@@ -8,8 +8,13 @@ export default function HomeScreen() {
     <View className="w-screen min-h-screen bg-white">
       <View className="w-screen flex flex-row justify-between items-center px-4 pt-3">
         <Title />
-        <ButtonLink className="bg-secondary rounded-lg flex justify-center items-center w-[175px] h-[50px]" href={"/login"}>
-          <Text className="text-white font-[PoppinsSemiBold] text-[12px]">Login as Admin</Text>
+        <ButtonLink
+          className="bg-secondary rounded-lg flex justify-center items-center w-[175px] h-[50px]"
+          href={"/login"}
+        >
+          <Text className="text-white font-[PoppinsSemiBold] text-[12px]">
+            Login as Admin
+          </Text>
         </ButtonLink>
       </View>
       <View className="flex flex-row justify-around pt-3">
